@@ -11,3 +11,4 @@ sed -i 's/^# \(zh_CN\.UTF-8\)/\1/'  /etc/locale.gen  # 去掉 zh_CN 前面的注
 locale-gen
 apt-get -y install fcitx5 fcitx5-chinese-addons
 sed -i 's/^#\(greeter-hide-user\)/\1/'  /etc/lightdm/lightdm.conf  # 自动显示用户名
+apt-get -y install libssl-dev flex bison libncurses5-dev      # 内核编译依赖
