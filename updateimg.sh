@@ -6,6 +6,7 @@
 cp images/sdcard.img . -f
 sudo mount sdcard.img -o offset=512 k
 sudo cp u-boot.bin k
+sudo cp u-bootp.bin k # for 3b+
 sudo cp uboot.env k
 sudo cp config.txt k
 sudo umount k
