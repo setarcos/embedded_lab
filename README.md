@@ -7,3 +7,4 @@
 * uboot.env，uboot 的环境变量保存文件
 * u-boot.bin，uboot 的二进制文件
 * config.txt，树莓派的启动配置文件
+* `raspberrypi3_pku_defconfig`，buildroot 的配置文件
