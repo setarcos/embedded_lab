@@ -8,7 +8,7 @@ start_file=start.elf
 fixup_file=fixup.dat
 
 #kernel=Image
-kernel=u-boot3p.bin
+kernel=u-bootp.bin
 
 # To use an external initramfs file
 #initramfs rootfs.cpio.gz
@@ -25,7 +25,7 @@ gpu_mem_1024=100
 
 # fixes rpi (3B, 3B+, 3A+, 4B and Zero W) ttyAMA0 serial console
 dtoverlay=miniuart-bt
-device_tree_address=0x2600000
+device_tree_address=0x2680000
 
 # enable autoprobing of Bluetooth driver without need of hciattach/btattach
 dtoverlay=krnbt=on
