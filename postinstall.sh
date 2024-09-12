@@ -12,8 +12,6 @@ locale-gen
 apt-get -y install fcitx5 fcitx5-chinese-addons
 sed -i 's/^#\(greeter-hide-user\)/\1/'  /etc/lightdm/lightdm.conf  # 自动显示用户名
 apt-get -y install libssl-dev flex bison libncurses5-dev      # 内核编译依赖
-apt-get -y install qt5-doc qttools5-dev-tools qtquickcontrols2-5-dev qtbase5-dev
-apt-get -y install cmake qtdeclarative5-dev qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtquick-window2
-apt-get -y install qtvirtualkeyboard-plugin qml-module-qtquick-dialogs
-apt-get -y qtcreator gdb
+apt-get -y install qt6-declarative-dev qtvirtualkeyboard-plugin qml-module-qtquick* qtquickcontrols*
+apt-get -y qt6-tools-dev qtcreator gdb cmake qml6-module-qtquick*
 apt-get clean
